@@ -3,6 +3,7 @@
 @section ('title', 'Ajouter un personnage')
 
 @section ('content')
+    <h1>Ajouter un personnage</h1>
     <div class="add">
         <form action="/addCharacter" method="POST" id="add">
             @csrf

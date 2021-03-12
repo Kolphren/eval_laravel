@@ -23,7 +23,11 @@
                     <td>{{$character->name}}</td>
                     <td>{{$character->creation_year}}</td>
                     <td>{{$character->book_name}}</td>
-                    <td>{{$character->designer->name}}</td>
+                    @if (isset($character->designer->name))
+                        <td>{{$character->designer->name}}</td>
+                        @else
+                        <td>Dessinateur inconnu</td>
+                    @endif
                     <td>
                         <form action="/modifyCharacter/{{$character->id}}" method="get">
                             @csrf

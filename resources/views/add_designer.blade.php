@@ -3,6 +3,7 @@
 @section ('title', 'Ajouter un dessinateur')
 
 @section ('content')
+    <h1>Ajouter un dessinateur</h1>
     <div class="add">
         <form action="/addDesigner" method="POST" id="add">
             @csrf

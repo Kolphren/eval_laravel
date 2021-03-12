@@ -15,7 +15,7 @@ class CreateCharactersTable extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique;
+            $table->string('name');
             $table->integer('creation_year');
             $table->string('book_name');
             $table->integer('designer_id');
