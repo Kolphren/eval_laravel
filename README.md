@@ -21,7 +21,7 @@ php artisan migrate --seed
 
 ## Consultation des personnages et des dessinateurs 
 
- - Des liens dans le header permettent d'accéder aux tableaux listant les personnage et les dessinateurs enregistrés.
+ - Des liens dans le header permettent d'accéder aux tableaux listant les personnages et les dessinateurs enregistrés.
 
 ## Ajouter des personnages et des dessinateurs
 
@@ -35,5 +35,5 @@ php artisan migrate --seed
 
 ## Suppression des personnages et des dessinateurs
 
- - Un bouton 'supprimer' permet d'effacer de ka base de donnée un personnage ou un dessinateur.
+ - Un bouton 'supprimer' permet d'effacer de la base de donnée un personnage ou un dessinateur.
  - Vous serez redirigé vers le tableau descriptif correspondant à la catégorie dans laquelle vous avez fait un ajout.
