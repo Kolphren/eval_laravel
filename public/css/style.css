@@ -7,7 +7,7 @@
 }
 body {
     height: 100vh;
-    background-image: url('/images/cartoon.jpg');
+    background-image: url('/images/cartoon3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -39,6 +39,7 @@ main {
     text-align: -webkit-center;
 }
 main p {
+    color: rgb(206, 206, 250);
     font-size: 1.5em;
     font-weight: 600;
     margin-top: 12em;
